@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Quote from './Quote';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Quote of the day.</h1>
+      <Quote />
+    <div className="footer">
+    <p className="this">Made with ❤ by Varun</p>
+    <a href="https://github.com/vrun1208">
+    <i className="fab fa-github fa-lg"> </i> 
+    </a>
+    <a href="https://www.facebook.com/varun.patodia.372">
+    <i className="fab fa-facebook fa-lg"> </i> 
+    </a>
+    <a href="https://twitter.com/extinctT_T">
+    <i className="fab fa-twitter fa-lg"> </i> 
+    </a>
+  </div>
     </div>
   );
 }
